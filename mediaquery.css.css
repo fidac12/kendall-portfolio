@@ -1,0 +1,367 @@
+@media screen and (max-width:1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+        
+    
+
+}
+
+
+
+@media screen and (max-width:1290px){
+
+    
+
+#ic{
+   position: absolute;
+    right: -65rem;
+    top: 40rem;
+}
+
+#projects{
+    display: inline;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+
+    }
+    #experience,
+    .experience-details-container{
+        margin-top: 2rem;
+
+    }
+
+    #profile,
+    .section-container{
+     display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section,
+    .section-container{
+        height: fit-content;
+    }
+
+    section{
+        margin: 0 5%;
+    }
+
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers{
+        margin-top: 0;
+    }
+
+
+    #kendall{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50vh;}
+    
+        .about-pic{
+            width: 100%;
+            height: 33vh;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+    
+        #about{
+            margin-top:auto;
+        }
+    
+        #projects{
+            margin-top: 4rem;
+        }
+
+        .about-details-container{
+            margin-top: 15rem;
+        }
+
+        .text-container{
+            font-size: larger;
+        }
+
+
+        .skills-section{
+            display: grid;
+        grid-template-columns:10% 10% 10% 10% 10%;
+        margin-top: 16px;
+        grid-column-gap:100px;
+        grid-row-gap: 7px;
+        margin-right: auto;
+        margin-left:2rem ;
+        
+        }
+
+        p{
+            font-size: larger;
+        }
+    
+    .skill-box {
+        
+        padding-top: 4vh;
+        margin-left: auto;
+        margin-right:5px;
+        width: 18vh;
+        height: 10vh;
+        height: fit-content;
+         text-align: center;
+        
+     }
+
+     #kendall{
+        width: 50%;
+        height: 80vh;
+    }
+    
+        .about-pic{
+            width: 100%;
+            height: 70vh;
+        }
+    
+        #about{
+            margin-top: 24rem;
+        }
+
+        
+    
+      
+    
+}
+
+
+
+@media screen and (max-width:500px) {
+    #contact,
+    footer{
+        height: 40vh;
+    }
+
+    #profile{
+        height: 83vh;
+
+        margin-bottom: 0;
+
+    }
+    
+    article{
+        font-size: 1rem;
+    }
+
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container{
+        margin: 0;
+    }
+
+    .contact-info-container p,
+    .nav-links li a{
+        font-size: 1rem;
+ }
+
+    .experience-sub-title{
+        font-family: 1.25rem;
+    }
+
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text__p2{
+        font-size: 1.25rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .text-container{
+        text-align: justify;
+    }
+
+    .section-container{
+        margin-top: 1em;
+    }
+
+    .about-details-container{
+        margin-top: 23rem;
+    }
+
+    .skills-section{
+        display: grid;
+    grid-template-columns:10% 10%;
+    margin-top: 16px;
+    grid-column-gap:100px;
+    grid-row-gap: 7px;
+    }
+
+.skill-box {
+    
+    padding-top: 4vh;
+    margin-left: auto;
+    margin-right: 5px;
+    width: 14vh;
+    height: 10vh;
+    height: fit-content;
+     text-align: center;
+    cursor: default;
+ }
+
+  #kendall{
+    width: 100%;
+    height: 55vh;
+}
+
+    .about-pic{
+        width: 80%;
+        height: 40vh;
+    }
+
+    #about{
+        margin-top: 4rem;
+    }
+
+    #projects{
+        margin-top: 4rem;
+    }
+  
+}
+
+
+@media screen and ( max-width:800px) {
+    #about{
+        margin-top: 12rem;
+    }
+
+    .about-details-container{
+        margin-top: auto;
+    }
+
+    .about-pic{
+        width: 100%;
+        height: 40vh;
+    }
+
+    .skills-section{
+        display: grid;
+    grid-template-columns:10% 10% 10%;
+    margin-top: 16px;
+    grid-column-gap:100px;
+    grid-row-gap: 7px;
+    }
+
+.skill-box {
+    
+    padding-top: 4vh;
+    margin-left: auto;
+    margin-right: 5px;
+    width: 17vh;
+    height: 10vh;
+    height: fit-content;
+     text-align: center;
+    cursor: default;
+ }
+}
+
+
+
+@media screen and ( max-width:300px) {
+    .skills-section{
+        display: grid;
+    grid-template-columns:10% 10%;
+    margin-top: 16px;
+    grid-column-gap:100px;
+    grid-row-gap: 7px;
+    }
+
+.skill-box {
+    
+    padding-top: 4vh;
+    margin-left: auto;
+    margin-right: 5px;
+    width: 13vh;
+    height: 10vh;
+    height: fit-content;
+     text-align: center;
+    cursor: default;
+ }
+
+ p{
+    font-size: small;
+ }
+
+
+ #kendall{
+    width: 100%;
+    height: 45vh;
+}
+
+    .about-pic{
+        width: 100%;
+        height: 50vh;
+    }
+
+    #about{
+        margin-top: 10rem;
+    }
+
+    .section__text{
+        margin-top: 2rem;
+    }
+
+    .about-details-container{
+        margin-top: 14rem;
+    }
+}
+
+
+   
+
+
